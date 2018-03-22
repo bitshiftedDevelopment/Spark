@@ -22,6 +22,7 @@ Once Yarn finished installing all the required node modules, you can use `yarn s
 - <strike>Material Design</strike> <em>Added 3/22/18</em>
 - <strike>Flexbox</strike> <em>Added 3/22/18</em>
 - Firebase
+- Auth0
 - Flexible cards
 - Flexible lists
 - Flexible toolbars
