@@ -25,6 +25,7 @@
 /connect.lock
 /libpeerconnection.log
 testem.log
+NG_CLI-readme.md
 
 # e2e
 /e2e/*.js
@@ -92,4 +93,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
