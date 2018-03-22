@@ -1,0 +1,95 @@
+.drag-boundary{
+  height: 1000px;
+}
+.login-card{
+  //background-color: cyan;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 60%;
+}
+.header{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginForm{
+  //background-color: rgba(0,0,0,0.3);
+  border-radius: 2px;
+  //margin: 1rem;
+  padding: 0.5em;
+  //box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.loginForm:hover{
+  //box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.email-area{
+  display: flex;
+  flex: 1;
+}
+.email-area:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.pw-area{
+  display: flex;
+  flex: 1;
+}
+.pw-area:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.label{
+  display: flex;
+  flex:2;
+  align-self: center;
+}
+.field-entry{
+  display: flex;
+  flex:6 6 60%;
+  flex-direction: column;
+}
+.pwEye{
+  margin-right: 1em;
+  //padding-right: 1em;
+}
+.social-logins{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 1em;
+}
+.loginIcon{
+  //margin: 1em;
+  padding: 0.5em;
+}
+.loginIcon:hover{
+  color: black;
+}
+.socialHeader{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.socialArea{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.actionBar{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.actionBtn{
+  display: flex;
+  //flex: 1;
+  margin: 2em;
+  justify-content: center;
+}
+.spacer{
+  display: flex;
+  flex: 2 1 auto;
+  justify-content: center;
+}

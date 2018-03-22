@@ -1,0 +1,60 @@
+<div class="drag-boundary" [ngClass]="{ 'top-b': !edge?.top, 'bottom-b': !edge?.bottom, 'left-b': !edge?.left, 'right-b': !edge?.right }" #myBounds>
+  <mat-card ngDraggable class="login-card drag-block" (edge)="checkEdge($event)" [bounds]="myBounds" [inBounds]="inBounds">
+    <mat-card-header>
+      <i mat-card-avatar class="fa fa-sign-in"></i>
+      <div class="header">
+        <mat-card-title>Login</mat-card-title>
+        <mat-card-subtitle>Please login to continue</mat-card-subtitle>
+      </div>
+    </mat-card-header>
+
+    <mat-card-content>
+      <form>
+        <div class="loginForm">
+          <div class="email-area">
+            <div class="label">Email: </div>
+            <div class="field-entry">
+              <mat-form-field>
+                <input matInput placeholder="Email" [formControl]="emailFormControl">
+                <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                  Please enter a valid email address
+                </mat-error>
+                <mat-error *ngIf="emailFormControl.hasError('required')">
+                  Email is <strong>required</strong>
+                </mat-error>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div class="pw-area">
+            <div class="label">
+              Password:
+            </div>
+            <mat-form-field class="field-entry">
+              <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'">
+              <mat-icon matSuffix (click)="hide = !hide" class="pwEye">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+            </mat-form-field>
+          </div>
+        </div>
+      </form>
+      <div class="socialArea">
+        <div class="socialHeader">
+          Or log in with one of these sites
+        </div>
+        <div class="social-logins">
+          <fireauth-google-login class="loginIcon"></fireauth-google-login>
+          <fireauth-github-login class="loginIcon"></fireauth-github-login>
+          <fireauth-facebook-login class="loginIcon"></fireauth-facebook-login>
+          <fireauth-twitter-login class="loginIcon"></fireauth-twitter-login>
+        </div>
+      </div>
+
+    </mat-card-content>
+
+    <mat-card-actions class="actionBar">
+      <button mat-button class="actionBtn">Forgot password?</button>
+      <span class="spacer"></span>
+      <button mat-button class="actionBtn">Get help</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
