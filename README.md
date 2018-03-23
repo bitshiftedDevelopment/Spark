@@ -33,3 +33,4 @@ Once Yarn finished installing all the required node modules, you can use `yarn s
 - Font Awesome
 - Angular-bound material components
 - Attractive custom angular components
+- Electron for desktop apps
