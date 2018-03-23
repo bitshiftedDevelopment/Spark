@@ -1,0 +1,30 @@
+.postcard{
+
+}
+
+.header{
+  background-color: green;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title{
+  background-color: blue;
+  display: flex;
+  flex:9;
+}
+
+.mat-card-avatar{
+
+}
+
+.delete{
+  background-color: red;
+  display: flex;
+  flex:1;
+}
+
+.contents{
+  background-color: yellow;
+}

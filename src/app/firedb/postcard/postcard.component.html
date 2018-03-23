@@ -1,0 +1,17 @@
+<mat-card class="postcard">
+  <mat-card-header class="header">
+    <div class="title">
+      <mat-card-title>
+        <strong>{{title}}</strong>
+      </mat-card-title>
+    </div>
+    <div class="delete" *ngIf="showDelete">
+      <i class="fa fa-trash-o"></i>
+    </div>
+
+  </mat-card-header>
+
+  <mat-card-content class="contents">
+    <p>{{contents}}<p>
+  </mat-card-content>
+</mat-card>
