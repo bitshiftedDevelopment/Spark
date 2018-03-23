@@ -26,6 +26,8 @@ export class FiredbComponent implements OnInit {
   postDoc: AngularFirestoreDocument<Post>;
   post: Observable<Post>;
 
+  showDelete:string;
+
   ngOnInit() {
     // This version returns all posts in the firestore
     this.postsCol = this.afs.collection('posts');
