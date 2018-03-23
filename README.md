@@ -4,6 +4,7 @@ Rapid webapp scaffolding system
 ![license](https://img.shields.io/github/license/bitshiftedDevelopment/spark.svg)
 ![Github All Releases](https://img.shields.io/github/downloads/bitshiftedDevelopment/spark/total.svg)
 ![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)
+![Travis](https://img.shields.io/travis/bitshiftedDevelopment/spark.svg)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/bitshiftedDevelopment/spark.svg)
 ![GitHub issues ](https://img.shields.io/github/issues/bitshiftedDevelopment/spark.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/bitshiftedDevelopment/spark.svg)
